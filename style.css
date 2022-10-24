@@ -1,0 +1,27 @@
+body {
+   width: 1500px;
+   margin: auto;
+}
+
+#catar {
+  width: 55%;
+  height: 500px;
+  box-shadow: 2px 2px 2px 2px
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {}
+
+nav ul {}
+
+nav ul li {
+}
+
+nav ul li a {
+    font-size: 30px;
+    color: black;
+}
+
