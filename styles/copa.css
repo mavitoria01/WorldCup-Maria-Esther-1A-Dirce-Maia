@@ -1,0 +1,109 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1000px;
+    margin: auto;
+  }
+  
+header {
+    width: 980px;
+    margin: auto;
+  }
+  
+.navegação {
+    width: 600px;
+    height: 220px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+.menudenavegação {
+    width: 400px;
+    margin: auto;
+    padding-top: 15px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+  }
+
+.img-nav {
+    width: 200px;
+  }
+  
+.itensdenavegação {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+  }
+  
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+main {
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: left;
+    padding: 5px;
+}
+
+.info-prin {
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.estadios {
+    width: 400px;
+}
+
+.caixa-jogadores {
+    width: 800px;
+    height: 100%;
+    margin: auto;
+}
+
+
+.lista-jogadores {
+    width: 115px;
+    height: 260px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px;
+    background: linear-gradient(white, grey, white);
+}
+
+.lista-jogadores:hover {
+    border: 2px solid yellow;
+    border-radius: 0px;
+    transition: 1s;
+    background: linear-gradient(grey, white, grey);
+}
+
+.lista-jogadores p {
+    text-align: center;
+}
+
+.img-jogador {
+    width: 100px;
+    height: 140px;
+    border-radius: 20px;
+}
+
